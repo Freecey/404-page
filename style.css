@@ -90,4 +90,7 @@ article {
 
 .txtb {
     font-weight: bold;
-}
+    }
+
+a.button:hover{
+    background: #383;  }
