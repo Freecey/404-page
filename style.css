@@ -32,9 +32,8 @@ nav {
 .cadre01 {
     text-align:center;
     margin:0 auto; 
-    width:80%;
-    max-width: 800px;
-    min-width: 400px;
+    max-width: 450px;
+    min-width: 450px;
     height:0 auto;
     padding:0px;
     border:4px solid steelblue;
@@ -44,7 +43,7 @@ nav {
 
 .cadre02 {
     margin:0 auto; 
-    width:90%;
+    width:70%;
     padding:0px;
     border:4px solid steelblue;
     background-color: wheat;
@@ -80,4 +79,15 @@ article {
     99%{    color: transparent; }
     100%{   color: red;    }
     }
-    
+.alcenter {
+    text-align:center;
+    align-items: center; 
+    }
+
+.sideimage {
+    width:500px;
+    }
+
+.txtb {
+    font-weight: bold;
+}
