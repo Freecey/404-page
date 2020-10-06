@@ -5,9 +5,7 @@
     -o-background-size: cover;
     background-size: cover;
     opacity: 1;
-    background-color: dimgray;
-  }
-
+}
 
 body { 
     font-family: monospace; 
@@ -15,6 +13,10 @@ body {
 }
 
 header {
+    text-align: center;
+  }
+
+h1 {
     color: rgb(21, 19, 105);
     text-align: center;
   }
@@ -67,3 +69,15 @@ article {
     margin-bottom: 15px;
     display: initial;
     }
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+    }
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color: transparent; }
+    100%{   color: red;    }
+    }
+    
