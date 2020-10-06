@@ -7,17 +7,28 @@
     opacity: 1;
     background-color: dimgray;
   }
-h1 {
+
+
+body { 
+    font-family: monospace; 
+    font-size: 125%;
+}
+
+header {
     color: rgb(21, 19, 105);
     text-align: center;
   }
-h2 {
-    color: rgb(18, 36, 114);
-    text-align: center;
-  }
-.cadre01 {
+
+nav {
     text-align:center;
     align-items: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cadre01 {
+    text-align:center;
     margin:0 auto; 
     width:80%;
     max-width: 800px;
@@ -28,34 +39,31 @@ h2 {
     opacity: 1;
     background-color: wheat;
     }
+
 .cadre02 {
     margin:0 auto; 
     width:90%;
-    height:0 auto;
     padding:0px;
     border:4px solid steelblue;
-    opacity: 1;
     background-color: wheat;
+    display: flow-root;
+    vertical-align: middle;
     }
 
-.nav-center {
-    text-align:center;
-    align-items: center; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+aside {
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    }
 
-.block-inline {
-    display: inline-block;
-    position: relative;
-    margin-left: 20px;
-}
-
-.pic-side {
-    text-align:right;
-    align-items: right;  
-    display: inline-block;
-    position: relative;
-    margin-right: 20px;
-}
+article {
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: initial;
+    }
